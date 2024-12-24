@@ -1,0 +1,39 @@
+.controls {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: .25rem;
+  pointer-events: none;
+}
+
+.button {
+  position: relative;
+  height: calc(30px - .25rem);
+  width: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .1s;
+  border-radius: var(--radius-sm);
+  color: #fff;
+  pointer-events: all;
+}
+
+.button svg {
+  user-select: none;
+  width: .8rem;
+  aspect-ratio: 1;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, .09);
+}
+
+.button:hover:active {
+  opacity: .7;
+}
+
+.button svg.exit {
+  width: .6rem;
+}

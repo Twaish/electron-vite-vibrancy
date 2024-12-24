@@ -1,0 +1,14 @@
+.titlebar {
+  user-select: none;
+  display: flex;
+  height: 2.25rem;
+  min-height: 2.25rem;
+  z-index: 999;
+}
+
+.content {
+  display: flex;
+  margin-left: auto;
+  padding: .25rem;
+  z-index: 2;
+}
