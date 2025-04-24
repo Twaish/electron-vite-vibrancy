@@ -11,6 +11,9 @@ An Electron application with React and TypeScript.
 
 ## Install
 
+Requirements:
+- Install Visual C++ Build Environment: For Visual Studio 2019 or later, use the Desktop development with C++ workload from Visual Studio Community. For a version older than Visual Studio 2019, install Visual Studio Build Tools with the Visual C++ build tools option.
+
 ```bash
 # clone the repository
 $ git clone https://github.com/Twaish/electron-vite-vibrancy.git
